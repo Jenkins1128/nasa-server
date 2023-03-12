@@ -30,7 +30,7 @@ async function populateLaunches() {
 	});
 
 	if (response.status !== 200) {
-		console.log('Problem downloading launch data');
+		console.log('There was a problem downloading launch data.');
 		throw new Error('Launch data download failed.');
 	}
 
